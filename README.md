@@ -1,6 +1,6 @@
-#🛡️ Treinamento: 
+##🛡️ Treinamento: 
 
-#⚠️ Uso estritamente em laboratório — conteúdo para treinamento/estudo em cibersegurança.
+##⚠️ Uso estritamente em laboratório — conteúdo para treinamento/estudo em cibersegurança.
 Não contém código nem instruções para criação de keyloggers furtivos ou exfiltração. Siga sempre leis, políticas internas e obtenha consentimento explícito.
 
 #Documentação do Teste — Ransomware Simulado (criação de arquivos de teste, criptografia/descriptografia e mensagem de “resgate”)
@@ -32,63 +32,79 @@ cryptography (pip install cryptography)
 
 Espaço em disco para criar arquivos de teste.
 
-#🧠 Keylogger Simulado:  programar captura de teclas em arquivo .txt, torná-lo mais furtivo e implementar envio automático por e-mail.
+##🧠 Keylogger Simulado:  programar captura de teclas em arquivo .txt, torná-lo mais furtivo e implementar envio automático por e-mail.
 
 Uso: material resumido para README de repositório GitHub destinado a treinamento/estudo em cibersegurança.
 Importante: não contém código nem instruções para criação/ocultação de keyloggers ou exfiltração de dados — foca em ética, defesa e boas práticas.
 
-#🎯 Objetivo
+##🎯 Objetivo
 
 Fornecer um panorama claro e responsável sobre captura de teclas (keylogging) para fins educativos: quando é legítimo, riscos legais/éticos e orientações para coleta segura, detecção e mitigação.
 
-#✨ Destaques (resumo rápido)
+##✨ Destaques (resumo rápido)
 
-Legitimidade: só com autorização explícita (ex.: estudos UX, acessibilidade, pesquisa autorizada).
+Foi criado um scipt para mapeamento de  teclas e armazenamento em arquivo log de forma temporaria keylogger.py para execução em segundo plano devevomos renomear para pyw, assim fica rodando escondido e automatico por um tempo
 
-Privacidade: minimize dados, anonimize sempre que possível, evite campos sensíveis (senhas, cartões).
+segundo passo foi criar um email de teste para esses mapeamentos de teclas serem enviados via email a cada 60 segundos e de forma automatica com python o nome do arquivo utlizado keylogger_email, deixei 2 imagens do resultado
 
-Consentimento: documentado e revogável; políticas claras sobre finalidade e retenção.
+##🛡️ Resumo — Medidas de Defesa contra Keyloggers e Ransomwares
 
-Alternativas seguras: métricas agregadas, dados sintéticos, APIs oficiais com permissões.
+##🔒 Objetivo: apresentar de forma resumida e educativa as principais estratégias de prevenção e defesa contra keyloggers e ransomwares em treinamentos de cibersegurança.
 
-Segurança dos dados: criptografia em trânsito e em repouso, controle de acesso, logs de auditoria.
+##💀 Ameaças
 
-Detecção & Resposta: EDR/antivírus, whitelisting, monitoramento de processos e plano de resposta a incidentes.
+Keylogger: registra teclas digitadas para roubar senhas e dados.
 
-#✅ Checklist rápido (use no seu README)
+Ransomware: criptografa arquivos e exige pagamento (resgate).
 
- Aprovação legal / compliance obtida
+##🧰 Principais Medidas de Defesa
+##🔹 Antivírus / Antimalware
 
- Consentimento informado documentado pelos participantes
+Detecta e bloqueia ameaças em tempo real.
 
- Apenas dados mínimos são coletados (minimização)
+Mantenha atualizado e habilite varredura heurística.
 
- Campos sensíveis são mascarados / excluídos
+##🔹 Firewall
 
- Criptografia e controles de acesso aplicados
+Controla conexões de rede.
 
- Política de retenção e exclusão definida
+Bloqueie portas e domínios suspeitos; ative logs.
 
- Ambiente de teste isolado (VM/sandbox) com snapshot
+##🔹 Sandboxing
 
-#🛡️ Boas práticas para treinamentos e laboratórios
+Testa arquivos em ambiente isolado (VM).
 
-Execute testes apenas em ambientes isolados (VMs/sandboxes).
+Ideal para analisar comportamento suspeito com segurança.
 
-Use dados fictícios sempre que possível.
+##🔹 Conscientização do Usuário
 
-Forneça um termo de consentimento claro aos participantes.
+Treinar sobre phishing, links falsos e engenharia social.
 
-Documente passos, coleta e duração — mantenha trilhas de auditoria.
+Incentivar senhas fortes e uso de autenticação multifator.
 
-Ao demonstrar detecção, mostre como ferramentas (EDR/AV) registram e respondem ao comportamento suspeito, sem mostrar como criar malware.
+##🧱 Outras Defesas Importantes
 
-#🔍 Foco em defesa — O que ensinar no treinamento
+Backup seguro: cópias offline e na nuvem.
 
-Identificação de sinais suspeitos: processos desconhecidos, hooks de entrada, tráfego de rede inesperado.
+Patching: mantenha sistemas atualizados.
 
-Controles preventivos: whitelisting de aplicações, privilégios mínimos, políticas de instalação restrita.
+Privilégios mínimos: limitar acessos.
 
-Resposta a incidentes: isolamento do host, preservação de evidências, restauração de backups e notificação.
+Monitoramento contínuo: use SIEM/EDR para detectar comportamentos anormais.
 
-Auditoria contínua: logging, revisão de permissões e varreduras regulares.
+##🚑 Resposta a Incidentes
+
+Isolar o dispositivo afetado.
+
+Preservar logs e evidências.
+
+Restaurar backup limpo.
+
+Comunicar equipe de segurança.
+
+Revisar políticas de prevenção.
+
+##🧠 Conclusão
+
+A defesa eficaz depende da combinação de tecnologia, processos e conscientização humana.
+Segurança é um processo contínuo, não uma ação única.
