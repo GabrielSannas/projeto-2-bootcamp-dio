@@ -1,4 +1,7 @@
-# projeto-2-bootcamp-dio
+#🛡️ Treinamento: 
+
+#⚠️ Uso estritamente em laboratório — conteúdo para treinamento/estudo em cibersegurança.
+Não contém código nem instruções para criação de keyloggers furtivos ou exfiltração. Siga sempre leis, políticas internas e obtenha consentimento explícito.
 
 #Documentação do Teste — Ransomware Simulado (criação de arquivos de teste, criptografia/descriptografia e mensagem de “resgate”)
 
@@ -29,16 +32,16 @@ cryptography (pip install cryptography)
 
 Espaço em disco para criar arquivos de teste.
 
-🧠 #Keylogger Simulado:  programar captura de teclas em arquivo .txt, torná-lo mais furtivo e implementar envio automático por e-mail.
+#🧠 Keylogger Simulado:  programar captura de teclas em arquivo .txt, torná-lo mais furtivo e implementar envio automático por e-mail.
 
 Uso: material resumido para README de repositório GitHub destinado a treinamento/estudo em cibersegurança.
 Importante: não contém código nem instruções para criação/ocultação de keyloggers ou exfiltração de dados — foca em ética, defesa e boas práticas.
 
-🎯 Objetivo
+#🎯 Objetivo
 
 Fornecer um panorama claro e responsável sobre captura de teclas (keylogging) para fins educativos: quando é legítimo, riscos legais/éticos e orientações para coleta segura, detecção e mitigação.
 
-✨ Destaques (resumo rápido)
+#✨ Destaques (resumo rápido)
 
 Legitimidade: só com autorização explícita (ex.: estudos UX, acessibilidade, pesquisa autorizada).
 
@@ -52,7 +55,7 @@ Segurança dos dados: criptografia em trânsito e em repouso, controle de acesso
 
 Detecção & Resposta: EDR/antivírus, whitelisting, monitoramento de processos e plano de resposta a incidentes.
 
-✅ Checklist rápido (use no seu README)
+#✅ Checklist rápido (use no seu README)
 
  Aprovação legal / compliance obtida
 
@@ -68,7 +71,7 @@ Detecção & Resposta: EDR/antivírus, whitelisting, monitoramento de processos 
 
  Ambiente de teste isolado (VM/sandbox) com snapshot
 
-🛡️ Boas práticas para treinamentos e laboratórios
+#🛡️ Boas práticas para treinamentos e laboratórios
 
 Execute testes apenas em ambientes isolados (VMs/sandboxes).
 
@@ -80,7 +83,7 @@ Documente passos, coleta e duração — mantenha trilhas de auditoria.
 
 Ao demonstrar detecção, mostre como ferramentas (EDR/AV) registram e respondem ao comportamento suspeito, sem mostrar como criar malware.
 
-🔍 Foco em defesa — O que ensinar no treinamento
+#🔍 Foco em defesa — O que ensinar no treinamento
 
 Identificação de sinais suspeitos: processos desconhecidos, hooks de entrada, tráfego de rede inesperado.
 
